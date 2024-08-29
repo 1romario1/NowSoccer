@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(223, 219, 219);
+}
+h1{
+   background-color: aliceblue;
+}
+#Inspiracion, #Contenido{
+    background-color: aliceblue;
+}
+*{
+    color: rgb(20, 4, 59);
+}
