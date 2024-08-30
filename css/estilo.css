@@ -1,12 +1,28 @@
 body{
     background-color: rgb(223, 219, 219);
 }
-h1{
-   background-color: aliceblue;
-}
 #Inspiracion, #Contenido{
     background-color: aliceblue;
 }
+#Inspiracion{
+    float:right;
+}
 *{
     color: rgb(20, 4, 59);
+}
+li{
+    background-color: rgb(8, 207, 8);
+    display: inline;
+}
+#navegacion{
+    background-color: rgb(8, 207, 8);
+}
+#inf{
+    float: left;
+}
+#Partidos{
+    margin-top: 250px;
+}
+footer{
+    background-color: rgb(8, 207, 8);
 }

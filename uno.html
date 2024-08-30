@@ -15,7 +15,7 @@
         <h1>Todo sobre el futbol</h1>
     </header>
     <hr> 
-   <nav>
+   <nav id="navegacion">
         <ul>
             <li>Inicio</li>
             <li>Partidos</li>
@@ -24,16 +24,16 @@
         </ul>
     </nav>
 
-    <hgroup>
-        <h2>Tenemos informacion sobre jugadores</h2>
-        <h2>Informacion sobre equipos</h2>
-        <h2>Informacion sobre nuevos partidos</h2>
-        <h2>Informacion sobre Directores tecnicos</h2>
+    <hgroup id="inf">
+        <h3>Tenemos informacion sobre jugadores</h3>
+        <h3>Informacion sobre equipos</h3>
+        <h3>Informacion sobre nuevos partidos</h3>
+        <h3>Informacion sobre Directores tecnicos</h3>
     </hgroup>
     
 
     <aside>
-        <blockquote id="Inspiracion">Inspiracion
+        <blockquote id="Inspiracion"><strong>INSPIRACION</strong>
             <strong><p>"El fútbol es un deporte de equipo y sin mis compañeros, 
                 no hubiera ganado nada. Soy un producto del trabajo en equipo,
                 y el fútbol es mi vida.", Lionel Messi.</p></strong>
@@ -44,15 +44,13 @@
         </blockquote>
     </aside>
     <section>
-        <article>
+        <article id="Partidos">
             <header>
                 <h2>Partidos</h2>    
             </header>
             <p>Informacion de partidos</p>
             <img src="img/futbol.jpg" alt="Imagen de balon" title="Balon futbol"/>
-            <footer>
-                <p>Que opinas?</p>
-            </footer>
+            <p>Que opinas?</p>
         </article>
         <hr>
         
@@ -62,9 +60,7 @@
             </header>
             <p>Partidos pasados</p>
             <img src="" alt="">
-            <footer>
-                <p>Que opinas?</p>
-            </footer>
+            <p>Que opinas?</p>
         </article>
         <hr>
         
@@ -74,39 +70,51 @@
             </header>
             <p>Partidos futuros</p>
             <img src="" alt="">
-            <footer>
-                <p>Danos tu opinion</p>
-            </footer>
+            <p>Danos tu opinion</p>
+        </article>
+            
+        <article>
+                <table id="Contenido">Estadisticas jugadores
+                    <thead>
+                        <tr>
+                            <th>Jugador</th>
+                            <th>Partidos</th>
+                            <th>Goles</th>
+                            <th>Asistencias</th>
+                            <th>Tarjeta roja</th>
+                            <th>Tarjeta amarilla</th>
+                            <th>Titulos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Messi</td>
+                            <td>186</td>
+                            <td>108</td>
+                            <td>56</td>
+                            <td>5</td>
+                            <td>5</td>
+                            <td>8 balones de oro</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+        </article>
+
+        <article>
+            <main></main>
+            <p>¿Entre los siguientes cual es tu jugador favorito?
+                <label for="">
+                    <select>
+                        <option value="Messi">Messi</option>
+                        <option value="Ronaldo">Ronaldo</option>
+                        <option value="Lucho diaz">Lucho diaz</option>
+                        <option value="James rodriguez">James rodriguez</option>
+                    </select>
+                </label>
+            </p>
         </article>
     </section>
-
-    <table id="Contenido">Estadisticas jugadores
-            <thead>
-                <tr>
-                    <th>Jugador</th>
-                    <th>Partidos</th>
-                    <th>Goles</th>
-                    <th>Asistencias</th>
-                    <th>Tarjeta roja</th>
-                    <th>Tarjeta amarilla</th>
-                    <th>Titulos</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Messi</td>
-                    <td>186</td>
-                    <td>108</td>
-                    <td>56</td>
-                    <td>5</td>
-                    <td>5</td>
-                    <td>8 balones de oro</td>
-                </tr>
-            </tbody>
-            <tfoot></tfoot>
-        </table>
-    </div>
-    <main></main>
     <footer>
         <address>
         <p>copyright Romario Gonzalez</p>
