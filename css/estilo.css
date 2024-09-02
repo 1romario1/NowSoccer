@@ -34,6 +34,7 @@ li{
 }
 img{
     width: 800px;
+    box-shadow:rgb(29, 29, 29) 5px 1px 50px;
 }
 #Partidos{
     margin-top: 250px;
