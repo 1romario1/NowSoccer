@@ -82,8 +82,7 @@ h3:nth-child(odd){
 h1{
     text-align: center;
     text-shadow: rgb(0, 0, 0) 1px 4px 8px;
-    /* -webkit-transform: scale(2); Modifica el tamaño del elemento*/
-    -webkit-transition: -webkit-transform 1s ease 0.1s;
+    -webkit-transition: -webkit-transform ease 1.0s;
 }
 h1:hover{
     -webkit-transform: rotate(-5deg);
@@ -97,9 +96,8 @@ h1:hover{
     font-size: 20px;
 }
 
-@keyframes scroll {
-
-    from {
+@keyframes scroll{
+    from{
         opacity: 0;
         scale: 25%;
     }
@@ -107,7 +105,8 @@ h1:hover{
         opacity: 1;
         scale: 100%;
     }
-} 
+}
+
 
 @media (max-width: 1600px){
     #inf{
@@ -138,7 +137,17 @@ h1:hover{
         font-size: 20px;
     }
 }
-
+@media (max-width: 1366px){
+    #inf{
+        gap:5px;
+    }
+    #inf h3{
+        width: 180px;
+    }
+    .img p:nth-child(2){
+        width: 500px;
+    }
+}
 
 /* Estilo para pantallas pequeñas (móviles)
 @media (max-width: 599px) {
