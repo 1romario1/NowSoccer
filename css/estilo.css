@@ -82,11 +82,12 @@ h3:nth-child(odd){
 h1{
     text-align: center;
     text-shadow: rgb(0, 0, 0) 1px 4px 8px;
-    -webkit-transition: -webkit-transform ease 1.0s;
+    transition: transform ease 1.0s;
 }
 h1:hover{
-    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
 }
+
 .img{
     display: flex;    
 }
@@ -149,35 +150,3 @@ h1:hover{
     }
 }
 
-/* Estilo para pantallas pequeñas (móviles)
-@media (max-width: 599px) {
-    .container {
-        flex-direction: column;
-    }
-
-    .item {
-        margin: 0 0 20px 0;
-    }
-}
-
- Estilo para tablets
-@media (min-width: 600px) and (max-width: 1023px) {
-    .container {
-        flex-direction: row;
-    }
-
-    .item {
-        flex: 1 1 45%; /* Cada elemento ocupa el 45% del contenedor 
-    }
-}
-
- Estilo para pantallas grandes (desktop) 
-@media (min-width: 1024px) {
-    .container {
-        flex-direction: row;
-    }
-
-    .item {
-        flex: 1 1 30%;
-    }
-} */
