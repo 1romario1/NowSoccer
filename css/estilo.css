@@ -50,6 +50,7 @@ img{
     animation-range: entry 25% cover 50%;
     animation-fill-mode: both;
 }
+
 #Partidos{
     margin-top: 250px;
 }
@@ -107,7 +108,6 @@ h1:hover{
         scale: 100%;
     }
 }
-
 
 @media (max-width: 1600px){
     #inf{
