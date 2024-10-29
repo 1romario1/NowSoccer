@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(215, 225, 245);
+    margin: 0;
+}
+
+#boton{
+    text-decoration: none;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 5px;
+    display:inline-block;
+    transition: transform ease 1.0s;
+}
+
+#boton:hover{
+    transform:scale(1.2);
+    background-color: white;
+    color: black;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 2px 5px 25px black;
+    text-shadow: 4px 5px 15px white;
+    transition: transform ease 1.0s;
+}
+
+h1:hover{
+    transform: rotate(5deg);
+}
+
+img{
+    width: 250px;
+    height: 150px;
+    margin-top: 18px;
+    margin-left: 3px;
+    border-radius: 10px;
+    transition: transform ease 1.0s;
+    box-shadow: 5px 5px 20px black;
+}
+img:hover{
+    transform: scale(1.2);
+}
+section{
+    border-top: 5px double #000000;
+    width: 75%;
+    margin: auto;   
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+h2{
+    margin: auto;
+}
+
+@media (min-width:756px) and (max-width:1425px){
+    img{
+        margin-top: 50px;
+    }
+
+    section{
+        width: 64%;
+    }
+
+    body{
+        position: relative;
+        min-height: 100vh;
+    }
+}
+
+footer{
+    position: absolute;
+    bottom: 0;    
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+hgroup{
+    margin-left: 10px;
+}

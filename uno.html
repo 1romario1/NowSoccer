@@ -10,17 +10,13 @@
     <title>NowSoccer</title>
     <link rel="stylesheet" href="css/estilo.css"/>
     <link rel="icon" href="img/icono.png"/>
-
-    <script>
-        alert("Bienvenidos");
-    </script>
-
-    <script src="jvs.js"></script>
+    
+    <script src="js/jvs2.js"></script>
+    <script src="js/jvs.js"></script>
 </head>
 <body>
-
     <header>
-        <h1 onclick="interaccion()">Todo sobre el futbol</h1>
+        <h1>Todo sobre el futbol</h1>
     </header>
 
     <hr>
@@ -59,7 +55,8 @@
      
     <section>
         <article id="Enlace">
-            <a href="dos.html" target="_blank" rel="noopener noreferrer">¡Entra aqui!</a>
+            <a href="dos.html" rel="noopener noreferrer">¡Entra aqui!</a>
+            <!-- target="_blank" -->
         </article>
 
         <article id="Partidos">
@@ -111,7 +108,7 @@
             <p>Partidos futuros</p>
 
             <div class="img">
-                <img src="img/Messi.jpg" alt="Messi" title="Messi">
+                <img src="img/jugadores/Messi.jpg" alt="Messi" title="Messi">
                 <p>Prepárate para los próximos encuentros. Consulta los partidos programados, conoce los
                    horarios y sigue de cerca a tus equipos favoritos. ¡No te pierdas la emoción de lo que
                    viene en el fútbol!</p>
@@ -144,14 +141,14 @@
                             <td>8 balones de oro</td>
                         </tr>
                     </tbody>
-                    <tfoot></tfoot>
+                    <!-- <tfoot></tfoot> -->
                 </table>
         </article>
 
         <article>
             <p>¿Entre los siguientes cual es tu jugador favorito?
-                <label for="">
-                    <select>
+                <label for="seleccion">
+                    <select id="seleccion">
                         <option value="Messi">Messi</option>
                         <option value="Ronaldo">Ronaldo</option>
                         <option value="Lucho diaz" selected>Lucho diaz</option>
@@ -163,12 +160,12 @@
     </section>
 
 
-    <footer>
+    <footer class="footer">
         <address>
-        <p>copyright Romario Gonzalez</p>
-        <a href="mailto:romarioggonzalez@gmail.com" rel="noopener noreferrer">Correo</a>
-        <time datetime="2024/01/01">Creacion 01/01/2024</time></address>
+            <p>copyright Romario Gonzalez</p>
+            <a id="correo" href="mailto:romarioggonzalez@gmail.com" rel="noopener noreferrer">Correo</a>
+            <time datetime="2024/01/01">Creacion 01/01/2024</time>
+        </address>
     </footer>
-
 </body>
 </html>
