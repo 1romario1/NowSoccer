@@ -3,7 +3,7 @@ function inicio(){
 }
 
 function interaccion(){
-    document.getElementsByName["p"][0].onclick=inicio;
+    document.getElementsByTagName("h1")[0].onclick=inicio;
 }
 
-window.onload=inicio;
+window.onload=interaccion;
