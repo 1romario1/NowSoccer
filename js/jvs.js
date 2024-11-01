@@ -1,3 +1,6 @@
+// function id(){
+//     document.getElementById("Id").onclick=wi;
+// }
 function inicio(){
     alert("No me toques");
 }
