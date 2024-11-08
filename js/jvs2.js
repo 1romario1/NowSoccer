@@ -72,22 +72,27 @@
 // window.onload=conexion;
 // var fun;
 
-// function empiezo(){
-//     alert("Que?, soy un parrafo");
-// }
+const alertas={
+    messi:"Anda pa acha",
+    diaz:"Soy el mayor enemigo de los defensores",
+    Rios:"Vem Quebrando",
+    Rodriguez:"A a a amo colombia",
+    Mbappe:"Quiero que mas niños tengan esta oportunidad",
+    Ronaldo:"Mi clasico Siuuuu",
+    Suarez:"No te limites a jugar",
+    Gaucho:"Me dicen mago con la pelota",
+    Junior:"No te quedes en el suelo",
+    Yamal:"Entrena duro"
+}
 
-// function funcion(){
+function muestraalertas(event){
+    const id= event.target.id;
+    alert(alertas[id]);
+}
 
-//     var fun=document.getElementsByTagName("p");
-//     for(var i=0;i<fun.length;i++){
-//         fun[i].addEventListener("click",empiezo,false);
-//         fun[i].addEventListener("click",aumenta,false);
-//     }   
-// }
-
-// function aumenta(){
-//     // fun.widht=200;
-//     alert("Que soy un parrafo!!");
-// }
-
-// window.onload=funcion;
+window.addEventListener("load", ()=>{
+    const img1=document.querySelectorAll("img");
+    img1.forEach(img2=>{
+        img2.addEventListener("click", muestraalertas);
+    });
+})

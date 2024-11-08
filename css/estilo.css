@@ -282,8 +282,22 @@ time{
     display: block;
 }
 
-nav,hgroup,section{
+nav,hgroup,section,video{
     margin-left: 10px;
 }
+
+video{
+    width: 97%;
+    border-radius: 8px;
+}
+
+#video{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(43, 177, 2);
+    border-radius: 8px;
+    padding-bottom: 10px;
+}
+
 
 
