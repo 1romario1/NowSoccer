@@ -72,7 +72,7 @@
 // window.onload=conexion;
 // var fun;
 
-const alertas={
+const alerta={
     messi:"Anda pa acha",
     diaz:"Soy el mayor enemigo de los defensores",
     Rios:"Vem Quebrando",
@@ -85,14 +85,17 @@ const alertas={
     Yamal:"Entrena duro"
 }
 
-function muestraalertas(event){
-    const id= event.target.id;
-    alert(alertas[id]);
+function mostraralert(event){
+    const id=event.target.id;
+    alert(alerta[id]);
 }
 
 window.addEventListener("load", ()=>{
-    const img1=document.querySelectorAll("img");
-    img1.forEach(img2=>{
-        img2.addEventListener("click", muestraalertas);
+    const imagen=document.querySelectorAll("img");
+    imagen.forEach(img => {
+        img.addEventListener("click", mostraralert);
     });
-})
+});
+
+
+

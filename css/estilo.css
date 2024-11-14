@@ -59,14 +59,14 @@ footer, #correo{
     color: rgb(255, 255, 255);
     text-align: center;
 }
-a{
+#Enlace2{
     background-color: rgb(207, 206, 206);
     transition:transform ease 1.0s;
     display: inline-block;
     margin-left: 8px;
     border-radius: 10px;
 }
-a:hover{
+#Enlace2:hover{
     transform: scale(1.2);
     background-color: rgb(18, 212, 76);
 }
@@ -216,6 +216,15 @@ h1:hover{
     .img p{
         padding-top: 20px;
     }
+    #video1,#video2,#video3{
+        display: none;
+        margin: auto;
+    }
+    #video10,#video20,#video30{
+        padding-top: 10px;
+        width: 600px;
+        margin-left: -110px;
+    }  
 }
 
 @media (max-width:639px){
@@ -274,10 +283,6 @@ h1:hover{
         height: 310px;
     }
 }
-
-
-
-
 time{
     display: block;
 }
@@ -300,4 +305,11 @@ video{
 }
 
 
+
+#video1,#video2,#video3{
+    display: none;
+    opacity: 0;    
+    width: 50%;
+    transition: ease 1.2s;
+}
 
