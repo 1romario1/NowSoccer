@@ -222,16 +222,40 @@ h1:hover{
     }
     #video10,#video20,#video30{
         padding-top: 10px;
-        width: 600px;
-        margin-left: -110px;
+        width: 550px;
+        margin-left: -45px;
+        box-shadow: 10px 10px 25px black;
     }  
 }
 
-@media (max-width:639px){
-    #inf h3{
-        margin: 1px 0;
-    }
+@media (min-width:776px) and (max-width:876px){
+    #video10,#video20,#video30{
+        margin-left: -58px;       
+    }  
 }
+
+@media (min-width:658px) and (max-width:776px){
+    #video10,#video20,#video30{
+        margin-left: -85px;       
+    }  
+}
+
+@media (min-width:587px) and (max-width:658px){
+    #video10,#video20,#video30{
+        width: 525px;
+        margin-left: -105px;       
+    }  
+}
+@media (max-width:587px){
+    #video10,#video20,#video30{
+        margin-left: -110px;   
+        width: 500px;    
+    }  
+}
+
+
+
+
 @media (max-width:499px){
     #Inspiracion{
         font-size: 10px;
