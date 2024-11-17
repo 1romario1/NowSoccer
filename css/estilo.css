@@ -311,29 +311,45 @@ time{
     display: block;
 }
 
-nav,hgroup,section,video{
+nav,hgroup,section{
     margin-left: 10px;
 }
 
-video{
-    width: 97%;
-    border-radius: 8px;
-}
-
 #video{
-    width: 50%;
-    margin: auto;
-    background-color: rgb(43, 177, 2);
-    border-radius: 8px;
-    padding-bottom: 10px;
+    width: 500px;
+    margin: 20px auto;
+    background-color: rgb(100, 201, 0);
+    padding: 5px;
+    box-shadow: 2px 5px 25px black;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+#video10,#video20,#video30{
+    width: 95%;    
+}
 
+#videof,#videof2{
+    width: 500px;
+    border-radius: 5px;
+}
 
 #video1,#video2,#video3{
     display: none;
     opacity: 0;    
     width: 50%;
     transition: ease 1.2s;
+}
+#reproducir{
+    float:left;
+}
+
+#barra{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white ;
+    width: 395px;
+    margin-left: 82px;
 }
 

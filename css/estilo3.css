@@ -1,0 +1,25 @@
+/* #video1,#video2,#video3,#video4{
+    display: none;
+} */
+
+
+#video{
+    width:500px;
+    margin: auto;
+    background-color: greenyellow;
+    padding: 5px;
+}
+
+#video1{
+    width: 500px;
+}
+#boton1{
+    float: left;
+}
+#barra{
+    width:395px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 8px;
+    margin-left: 85px;
+}

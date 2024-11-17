@@ -36,10 +36,30 @@ window.addEventListener("DOMContentLoaded", function(){
 });
 
 
+var videof2, reproducir, barra, progreso;
 
+function inicio(){
+    videof2=document.getElementById("videof2");
+    reproducir=document.getElementById("reproducir");
+    barra=document.getElementById("barra");
+    progreso=document.getElementById("progreso");
 
+    reproducir.addEventListener("click", interactuar);
 
+    progreso.addEventListener("click", paso);
+}
 
+function interactuar(){
+    if(( videof2.paused==false) && (videof2.ended==false)){
+        videof2.pause();
+        reproducir.innerHTML="reproducir";
+    }
+    else{
+        videof2.play();
+        reproducir.innerHTML="pausar";
+    }
+}
 
+window.addEventListener("load", inicio);
 
 
